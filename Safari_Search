@@ -1,6 +1,8 @@
-[URL Rewrite]
 #!name=Safari搜索增强
 #!desc=Safari搜索增强
+
+[URL Rewrite]
+
 # yd  xxx (有道词典)
 ^https:\/\/duckduckgo.com\/\?q=yd\+([^&]+).+ http://dict.youdao.com/search?q=$1 302
 ^https:\/\/duckduckgo.com\/\?q=([^+]+)\+yd.+ http://dict.youdao.com/search?q=$1 302
